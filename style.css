@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #ff7b7b;
+    text-align: center;
+    font-family:Georgia;
+    padding-top: 15px;
+    color:white;
+    padding-bottom: 15px;
+}
+.winner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffbaba;
+    text-align: center;
+
+}
+.pagemiddle{
+   display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: 	#ff5252;
+}
+
+.player_1{
+    float: left;
+    flex: 40%;
+    text-align: center;
+    background-color: #ce2929;
+    font-family: Georgia;
+    color: #f3ebeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.player_2{
+    float: right;
+    text-align: center;
+    flex: 40%;
+    background-color: #ce2929;
+    font-family: Georgia;
+    color: #f3ebeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.button_field{
+    padding-top: 20px;
+    padding-bottom:20px ;
+    margin-bottom: 5%;
+   
+}
+#button_1{
+   
+    background-color: #850909;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    margin-left: 43%;
+}
+footer{
+    background-color: #5a0d0d;
+    margin-bottom: 0px;
+    padding: 20px 20px 20px 20px;
+   
+    margin-top: 5px;
+    
+}
+footer p{
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   font-size: large;
+
+}
